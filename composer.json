@@ -1,0 +1,26 @@
+{
+    "name": "woopicus/oop-car-examples",
+    "description": "OOP voorbeelden in PHP met unittests",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Woopicus",
+            "email": "bart_drongelen@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "phpunit/phpunit": "^12.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
+    }
+}
